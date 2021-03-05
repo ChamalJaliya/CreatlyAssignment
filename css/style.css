@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden !important;
+}
+.landing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/backdrop.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+/* .main-carousel {
+    height: 60vh;
+  } */
+/* .carousel-inner {
+    max-height: 60vh;
+  }
+  .carousel-inner img {
+    max-height: 60vh;
+  }
+  .carousel-indicators img {
+    max-width: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  } */
+
+.carousel-inner img {
+  background-image: linear-gradient(
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.9)
+  ) !important;
+}
